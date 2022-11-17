@@ -11,7 +11,7 @@ pipeline{
 	    stage('gitclone') {
 
 			steps {
-				git  'https://github.com/ahildarshan/node-redis-mongo.git'
+				git  'https://github.com/mrmeowboi/node-redis-mongo.git'
 			}
 		}
 
